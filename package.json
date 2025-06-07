@@ -1,5 +1,5 @@
 {
-  "name": "@spearly/astro",
+  "name": "@mantaroh/spearly-astro",
   "version": "0.1.0",
   "type": "module",
   "exports": {
@@ -33,10 +33,10 @@
     "spearly",
     "cms"
   ],
-  "author": "Spearly",
+  "author": "mantaroh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spearly/spearly-astro-plugin"
+    "url": "https://github.com/mantaroh/spearly-astro-plugin"
   }
 } 

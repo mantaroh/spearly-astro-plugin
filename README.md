@@ -1,11 +1,11 @@
-# @spearly/astro
+# @mantaroh/spearly-astro
 
 Spearly CMSのAstroインテグレーション
 
 ## インストール
 
 ```bash
-npm install @spearly/astro
+npm install @mantaroh/spearly-astro
 ```
 
 ## 使用方法
@@ -14,7 +14,7 @@ npm install @spearly/astro
 
 ```js
 import { defineConfig } from 'astro/config';
-import spearly from '@spearly/astro';
+import spearly from '@mantaroh/spearly-astro';
 
 export default defineConfig({
   integrations: [
@@ -31,7 +31,7 @@ export default defineConfig({
 
 ```astro
 ---
-import { SpearlyClient } from '@spearly/astro/client';
+import { SpearlyClient } from '@mantaroh/spearly-astro/client';
 
 const client = new SpearlyClient({
   apiKey: import.meta.env.SPEARLY_API_KEY,

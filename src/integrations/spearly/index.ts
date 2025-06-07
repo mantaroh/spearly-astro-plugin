@@ -10,7 +10,7 @@ export default function spearly(options: SpearlyOptions): AstroIntegration {
   const { apiKey, projectId, baseUrl = 'https://api.spearly.com' } = options;
 
   return {
-    name: '@spearly/astro',
+    name: '@mantaroh/spearly-astro',
     hooks: {
       'astro:config:setup': ({ injectScript }: { injectScript: (stage: string, code: string) => void }) => {
         // クライアントサイドのスクリプトを注入
