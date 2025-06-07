@@ -1,0 +1,42 @@
+{
+  "name": "@spearly/astro",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "astro": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "peerDependencies": {
+    "astro": "^4.0.0"
+  },
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "astro",
+    "spearly",
+    "cms"
+  ],
+  "author": "Spearly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spearly/spearly-astro-plugin"
+  }
+} 

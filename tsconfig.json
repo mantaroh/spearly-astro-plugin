@@ -1,0 +1,23 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "types": ["astro/client"],
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+} 
